@@ -1,4 +1,6 @@
 {
+  "name": "js-task-7",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "jscs": "^2.2.1",
@@ -6,6 +8,8 @@
   },
   "scripts": {
     "test": "mocha test/* && npm run lint",
-    "lint": "jscs ."
+    "lint": "jscs .",
+    "inspect": "node --inspect --debug-brk examples/required.js",
+    "go": "node examples/required.js"
   }
 }
